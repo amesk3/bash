@@ -1,6 +1,3 @@
-const pwd = require('./pwd');
-pwd();
-
 module.exports = function () {
    process.stdout.write('prompt > pwd');
 
